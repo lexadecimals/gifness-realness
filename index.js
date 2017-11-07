@@ -20,7 +20,7 @@ function searchGifs() {
     }
   };
 
-  xhr.open("GET", "https://api.giphy.com/v1/gifs/random?api_key=OlQPATAEpuqDQXxluhspjJNoqHtQjSFK&tag=rupauls+drag+race?", true);
+  xhr.open("GET", "https://api.giphy.com/v1/gifs/random?api_key=OlQPATAEpuqDQXxluhspjJNoqHtQjSFK&tag=rupaul", true);
   xhr.send();
 
 
