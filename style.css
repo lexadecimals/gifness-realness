@@ -1,0 +1,46 @@
+
+body {
+  background-image: url("200w_d.gif");
+  background-repeat: repeat;
+}
+
+.container {
+  width: 50%;
+  min-width: 600px;
+  position: relative;
+  margin: 15% auto;
+}
+
+.results{
+  position: absolute;
+  margin-left: 10%;
+  width: 80%;
+  text-align: center;
+
+}
+
+
+/*
+.search-results {
+  position: absolute;
+  margin-left: 10%;
+  width: 80%;
+
+}*/
+
+.search-btn {
+
+  width: 30%;
+  background-color: rgb(247, 73, 214);
+  border: none;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.search-btn:hover {
+  background: rgb(196, 6, 252);
+  cursor: pointer;
+}
